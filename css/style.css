@@ -1,0 +1,503 @@
+/* ============= commmon css start ============== */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+.body{
+    font-family:"Poppins", serif;
+}
+/* ============= commmon css end ============== */
+
+/* ============= navber part start ============== */ 
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid #9F9F9F;
+    margin-bottom: 34px;
+}
+.navbar-brand{
+    padding-top: 52px;
+    padding-bottom: 45px;
+    margin-right: 114px;
+}
+.nav-item{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+}
+.me-auto {
+    margin-right: 5px !important;
+}
+.nav-item .nav-link{
+    margin-right: 30px;
+    color: #121212;
+}
+
+.navbar .form-control {
+    width: 500px;
+    padding: 20px 25px;
+    appearance: none;
+    color: #121212;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: rgba(69, 110, 214, 0.05);
+}
+
+.navbar-collapse i {
+    color: #121212;
+    position: relative;
+    top: 25px;
+    left: -50px;
+    font-size: 20px;
+}
+.navbar .icon{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+.navbar .icon i{
+    position: relative;
+    top: 6px;
+    left: 0;
+    color: #456ED6;
+}
+
+
+/* ============= navber part end ============== */ 
+
+/* ============= filter part start ============== */ 
+#filter{
+    padding-top: 20px;
+    padding-bottom: 104px;
+}
+#filter .top{
+    justify-content: space-between;
+}
+
+
+#filter h3{
+    color: #121212;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#filter .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;  
+}
+#filter .right .lright{
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#filter .right .box{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding: 10px 20px;
+    border-radius: 14px;
+    border: 1px solid #9F9F9F;
+}
+#filter .right .box .rright{
+    opacity: 0.7;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#filter .right .box i{
+    font-size: 18px;
+}
+
+#filter .down .catagory{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 0;
+    margin-top: 30px;
+}
+
+#filter .down .catagory h6{
+    color: #121212;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.7;
+    margin-bottom: 8px;
+}
+
+#filter .down .top{
+    position: relative;
+}
+#filter .down .top::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -21px;
+    height: 1px;
+    background: #9F9F9F;
+    width: 88%;
+}
+#filter .down .top li{
+    margin-top: 12px;
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#filter .down .top li i{
+    color: #456ED6;
+    margin-right: 5px;
+}
+#filter .down .top .faka i{
+    color: #9F9F9F;
+}
+
+#filter .down .rating{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 0;
+    margin-top: 30px;
+}
+#filter .down .rating h6{
+    color: #121212;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.7;
+    margin-bottom: 8px;
+}
+#filter .down .icon .gold .iicon{
+    margin-bottom: 10px;
+}
+#filter .down .icon .gold .iicon i{
+    color: #FFC540;
+    margin-right: 2px;
+    
+
+}
+
+#filter .down .icon .gold .iicon i:first-child{
+    color: #456ED6;
+    margin-right: 5px;
+    
+
+}
+
+#filter .down .icon .gold .iiicon i{
+    color: #FFC540;
+    margin-right: 2px;
+    
+
+}
+
+#filter .down .icon .gold .iiicon i:first-child{
+    color: #9F9F9F;
+    margin-right: 5px;
+    
+}
+
+#filter .down .icon .gold .iiicon i:last-child{
+    color: #9F9F9F;
+    
+
+}
+#filter .down .rating{
+    position: relative;
+}
+#filter .down .rating::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -150px;
+    height: 1px;
+    background: #9F9F9F;
+    width: 88%;
+}
+#filter .down .icon .gold button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    margin-top: 20px;
+}
+
+
+
+
+#filter .down .price{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 0;
+    margin-top: 30px;
+}
+#filter .down .price h6{
+    color: #121212;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.7;
+    margin-bottom: 8px;
+}
+
+#filter .down .main2{
+    display: flex;
+    align-items: center;
+    column-gap: 150px;
+    margin-top: 19px;
+    flex-wrap: wrap;
+
+}
+#filter .down .main2 p{
+    color: #121212;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+
+#filter .down .main2 p::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    background: #9F9F9F;
+    width: 180%;
+}
+
+#filter .down .main2 .box1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    position: relative;
+}
+#filter .down .main2 .box1::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -32px;
+    height: 1px;
+    background: #9F9F9F;
+    width: 88%;
+}
+#filter .down .main2 .box1 .box2{
+    padding: 10px 30px;
+    border-radius: 15px;
+    background: #FFF;
+    border: 1px solid #9F9F9F;
+    margin-top: 20px;
+    transition: all linear .3s;
+    color: #000;
+    text-align: center;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#filter .down .main2 .box1 .box2:hover{
+    background: #456ED6;
+    color: #FFF;
+}
+
+
+
+#filter .down .color{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 0;
+    margin-top: 40px;
+}
+#filter .down .color h6{
+    color: #121212;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.7;
+    margin-bottom: 8px;
+}
+
+#filter .down .images{
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+    margin-top: 15px;
+    position: relative;
+}
+#filter .down .images::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -32px;
+    height: 1px;
+    background: #9F9F9F;
+    width: 88%;
+}
+
+
+
+#filter .down .location{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0 0;
+    margin-top: 40px;
+}
+#filter .down .location h6{
+    color: #121212;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    opacity: 0.7;
+    margin-bottom: 8px;
+}
+#filter .down ul .sunno i{
+    color: #456ED6;
+
+}
+#filter .down ul .sunno{
+    margin-bottom: 12px;
+
+}
+#filter .down ul .check i{
+    color: #9F9F9F;
+}
+#filter .down ul .check{
+    margin-bottom: 12px;
+}
+
+#filter .down .list2 ul button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#filter .ddright{
+    padding: 0px;
+    margin-top: 36px;
+}
+
+#filter .dright{
+    row-gap: 27px;
+}
+
+#filter .card{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+}
+#filter .card-body .card-text{
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+#filter .card-body .rp{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+#filter .card-body .popular{
+    display: flex;
+    justify-content: space-between;
+}
+
+#filter .card-body .popular .left span{
+    color: #121212;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
+#filter .card-body .right span{
+    color: #121212;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#filter .card-body .right{
+    text-align: right;
+}
+#filter .card-body .left i{
+    color: #FFC540;
+}
+
+#filter .ddright .dright .visiting-card{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* ============= filter part end ============== */ 

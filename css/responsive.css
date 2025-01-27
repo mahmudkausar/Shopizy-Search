@@ -1,0 +1,252 @@
+@media (max-width:575px){
+
+    .navbar {
+        margin-bottom: 0px;
+        border-bottom: 1px solid #9F9F9F;
+    }
+
+    .navbar-brand {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow:none;
+    }
+
+    .navbar-toggler {
+        border: 0
+    }
+
+
+
+
+
+
+    #filter {
+        padding-top: 5px;
+        padding-bottom: 50px;
+    }
+
+    #filter h3 {
+        font-size: 23px;
+    }
+    #filter .right {
+        column-gap: 3px;
+    }
+    #filter .right .lright {
+        font-size: 11px;
+    }
+    #filter .right .box {
+        column-gap: 2px;
+        padding: 5px 8px;
+        border-radius: 10px;
+    }
+
+    #filter .right .box .rright {
+        font-size: 10px;
+    }
+
+    #filter .right .box i {
+        font-size: 15px;
+    }
+
+
+    #filter .down .catagory {
+        justify-content: start;
+        padding: 0;
+        margin-top: 15px;
+        column-gap: 10px;
+        align-items: start;
+    }
+    #filter .down .catagory i{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    #filter .down .top li {
+        margin-top: 4px;
+        font-size: 13px;
+    }
+    #filter .down .top::after {
+        bottom: -10px;
+    }
+
+    #filter .down .top li i {
+        margin-right: 2px;
+    }
+
+    #filter .down .rating {
+        justify-content: start;
+        padding: 0;
+        margin-top: 15px;
+        align-items: start;
+        column-gap: 10px;
+    }
+
+    #filter .down .rating i{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    #filter .down .icon .gold .iicon {
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    #filter .down .icon .gold .iiicon {
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+    #filter .down .icon .gold .iicon i:first-child {
+        margin-right: 0;
+    }
+    #filter .down .icon .gold .iicon i {
+        margin-right: 0;
+    }
+
+
+    #filter .down .icon .gold .iiicon i:first-child {
+        margin-right: 0;
+    }
+    #filter .down .icon .gold .iiicon i {
+        margin-right: 0;
+    }
+
+    #filter .down .icon .gold button {
+        padding: 5px 10px;
+        border-radius: 10px;
+        margin-top: 15px;
+    }
+
+    #filter .down .rating::after {
+        bottom: -100px;;
+    }
+
+    #filter .down .price {
+        justify-content: start;
+        padding: 0 0px 0 0px;
+        margin-top: 20px;
+        column-gap: 10px;
+    }
+    #filter .down .price i {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    #filter .down .main2 {
+        column-gap: 130px;
+        margin-top: 0px;
+        flex-wrap: wrap;
+    }
+    #filter .down .main2 p {
+        font-size: 13px;
+    }
+    #filter .down .main2 .box1 {
+        column-gap: 6px;
+    }
+    #filter .down .main2 .box1 .box2 {
+        padding: 5px 10px;
+        border-radius: 10px;
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    #filter .down .main2 .box1::after {
+        bottom: -15px;
+        width: 97%;
+    }
+  
+    #filter .down .color {
+        justify-content: start;
+        padding:0;
+        margin-top: 20px;
+        column-gap: 10px;
+    }
+    #filter .down .color i {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    #filter .down .images {
+        column-gap: 10px;
+        margin-top: 5px;
+    }
+
+    #filter .down .location {
+        justify-content: start;
+        padding:0;
+        margin-top: 20px;
+        column-gap: 10px;
+    }
+    #filter .down .location i {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    #filter .down .main2 .box1::after {
+        bottom: -15px;
+        width: 97%;
+    }
+
+    #filter .down .images::after {
+        bottom: -15px;
+        width: 88%;
+    }
+    #filter .down ul .check {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    #filter .down ul .sunno {
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    #filter .down .list2 ul button {
+        padding: 5px 15px;
+        border-radius: 10px;;
+        margin-top: 10px;
+    }
+    #filter .ddright {
+        padding-left: 15px;
+        margin-top: 25px;
+    }
+    #filter .dright {
+        row-gap: 20px;
+    }
+
+    #filter .card-body .card-text {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+    #filter .card-body .rp {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    #filter .card-body .left i {
+        font-size: 12px;
+    }
+
+    #filter .ddright {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ================================ */
+}
