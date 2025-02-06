@@ -79,8 +79,26 @@ h1,h2,h3,h4,h5,h6,p{
     left: 0;
     color: #456ED6;
 }
-
-
+.navbar .icon .fa-bell::after {
+    position: absolute;
+    top: -1px;
+    right: -2px;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #FFC540;
+}
+.navbar .icon .fa-comment-dots::after {
+    position: absolute;
+    top: 0px;
+    right: -3px;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #FFC540;
+}
 /* ============= navber part end ============== */ 
 
 /* ============= filter part start ============== */ 
